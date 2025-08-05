@@ -3,7 +3,7 @@ from pymongo import MongoClient
 
 # Access the MongoDB URI from secrets.toml
 MONGO_URI = st.secrets["MONGO_URI"]
-# MONGO_URI = "mongodb+srv://chatclon25:XY3ZpltbotE2@cluster0.t50rh.mongodb.net/ai_chatbot?retryWrites=true&w=majority&appName=Cluster0"
+# MONGO_URI = "mongodb+srv://.../ai_chatbot?retryWrites=true&w=majority&appName=Cluster0"
 
 # Connect to MongoDB
 try:
